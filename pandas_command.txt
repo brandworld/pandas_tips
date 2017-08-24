@@ -1,0 +1,12 @@
+%matplotlib inline
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+pd.set_option('max_rows', 25)
+plt.style.use('ggplot')
+plt.rcParams['figure.figsize'] = (10, 4)
+
+DataFrame.groupby(by=None, axis=0, level=None, as_index=True, sort=True, group_keys=True, squeeze=False, **kwargs)
+
+# show the column and row of DF
+DataFrame.shape
